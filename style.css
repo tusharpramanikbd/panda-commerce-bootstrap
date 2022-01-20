@@ -72,3 +72,23 @@ banner section
 end of banner section
 ======================
 */
+
+/*
+=================
+category section
+=================
+*/
+.category-1{
+	background: rgb(170, 170, 4);
+}
+.category-2{
+	background: rgb(247, 43, 77);
+}
+.category-3{
+	background: blue;
+}
+/*
+========================
+end of category section
+========================
+*/
