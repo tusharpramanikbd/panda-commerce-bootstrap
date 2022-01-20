@@ -46,7 +46,26 @@ banner section
 =================
 */
 .section-banner{
-  min-height: calc(100vh - 59px);
+  min-height: calc(100vh - 56px);
+}
+.custom-item{
+	background: #FEEAE9;
+}
+.banner-img{
+	width: 50%;
+}
+@media screen and (min-width: 768px) {
+	.banner-img{
+		width: 75%;
+	}
+}
+@media screen and (min-width: 992px) {
+  .banner-img{
+		width: 75%;
+	}
+	.custom-item{
+		padding: 2rem 0;
+	}
 }
 /*
 ======================
