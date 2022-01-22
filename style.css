@@ -5,9 +5,9 @@ Variables
 */
 :root {
 	--clr-white: #fff;
-	--clr-primary: rgb(248, 104, 88);
-	--clr-btn-hover: rgb(245, 151, 140);
-	--clr-bg-banner: #FFFBF0;
+	--clr-primary: #FF589B;
+	--clr-btn-hover: #fd79ae;
+	--clr-bg-banner: #FEEAE9;
 	--clr-bg-img: #F1F1F1;
 	--ff-primary: 'Poppins', sans-serif;
 	--ff-secondary: 'Luxurious Roman', cursive;
@@ -34,6 +34,12 @@ h4 {
 	margin: 0 auto;
 	max-width: 1170px;
 }
+.bg-panda-primary{
+	background: var(--clr-primary);
+}
+.color-panda-primary{
+	color: var(--clr-primary);
+}
 /*
 ======================
 end of global classes
@@ -49,7 +55,7 @@ banner section
   min-height: calc(100vh - 56px);
 }
 .custom-item{
-	background: #FEEAE9;
+	background: var(--clr-bg-banner);
 }
 .banner-img{
 	width: 50%;
