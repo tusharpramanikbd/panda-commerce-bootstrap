@@ -121,6 +121,14 @@ email section
 .bg-email-section{
 	background: #FEEAE9;
 }
+.email-width{
+	width: 75%;
+}
+@media screen and (min-width: 992px) {
+  .email-width{
+		width: 50%;
+	}
+}
 /*
 ========================
 end of email section
